@@ -16,8 +16,8 @@ void main()
 	do {
 	Init(arr, size);
 	SelectSort(arr, size);
-	// VisualBinarSearch(arr, size, key,20,5);
-	BinarSearch(arr, size, key);
+	VisualBinarSearch(arr, size, key,20,5);
+	// BinarSearch(arr, size, key);
 	cout << "Press any key for repeat! Esc for exit!";
 	direct = _getch();
 	Sleep(1000);

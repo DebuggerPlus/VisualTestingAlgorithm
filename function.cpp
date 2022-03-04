@@ -223,7 +223,8 @@ void VisualBinarSearch(int* arr, const int size, int key,int x,int y)
 			//ckey.Y = 2;
 			/*SetConsoleCursorPosition(h, ckey);
 			cout << " dll = " << dll << " dlr = " << dlr;
-			*/for (int i = dll; i <= dlr; i++) {
+			*/
+			for (int i = dll; i <= dlr; i++) {
 				ckey.X = x + i * 4 + 11;
 				ckey.Y = y + 2;
 				SetConsoleCursorPosition(h, ckey);
